@@ -12,25 +12,58 @@
     margin: 0;
     padding: 0;
 }
-.inputdiv {
-    background-color: gray;
-    border: 2px solid gray;
-}
 #input {
-    height: 3vh;
+    height: 5vh;
+    width: 22vw;
     padding: 0px 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
 }
 .foradd {
-    height: 3vh;
-    width: 3vw;
-    background-color: green;
+    height: 5vh;
+    width: 4vw;
+    background-color: purple;
     border: none;
+    font-size: 20px;
+    color: white;
 }
 .secdiv {
     display: flex;
     flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px;
 }
 h1 {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+#list {
+    text-decoration: none;
+}
+.thirddiv {
+    height: 5vh;
+    width: 27.5vw;
+    background-color: rgb(221, 221, 221);
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+}
+.thirddiv h3 {
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.thirddiv button {
+    height: 5vh;
+    background-color: red;
+    border: none;
+}
+.thirddiv button img {
+    height: 5vh;
+    width: 3vw;
 }
